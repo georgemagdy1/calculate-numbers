@@ -10,7 +10,7 @@ int main()
 	printf("enter your second number");
 	scanf("%d", &y);
 	printf("enter your op");
-	scanf("%s", &op);
+	scanf(" %c", &op);
 	if (op == '+') {
 
 		printf("your result %d+%d=%d", x, y, x + y);
